@@ -1,0 +1,463 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+/* Navbaar starts here */
+nav {
+    position: sticky;
+    top: 0.01vw;
+}
+
+ul {
+    width: 98%;
+    padding: 1vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 27vw;
+    background-color: #f2f2f2;
+}
+ul :nth-child(1) {
+    font-size: 2vw;
+    cursor: pointer;
+}
+ul :nth-child(1) img {
+    width: 10vw;
+    cursor: pointer;
+}
+
+ul :nth-last-child(2) img {
+    width: 2.5vw;
+    cursor: pointer;
+}
+
+ul :nth-last-child(1) img {
+    width: 1.7vw;
+    margin-top: 0.9vw;
+    cursor: pointer;
+}
+/* main content starts here */
+.first {
+    height: 54vw;
+    width: 100%;
+    background-image: url("https://images01.nicepage.com/1e/33/1e337aca6926e6390da9170be3bb09db.png");
+    background-size: cover;
+}
+
+.first div {
+    width: 40vw;
+    padding: 2vw 3vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vw;
+    align-items: end;
+    margin: 13vw 0vw 0vw 50vw;
+}
+
+.first div :nth-child(1) {
+    font-size: 7vw;
+    font-family: 'Roboto Slab', serif !important;
+    color: #f15048 !important;
+    font-weight: 700;
+}
+
+.first div :nth-child(2) {
+    font-family: Roboto, sans-serif !important;
+    color: white;
+    font-size: 4.5vw;
+    font-weight: 400;
+}
+
+.first div :nth-child(3) {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    color: #ffff;
+    font-size: 1.1vw;
+    word-wrap: break-word;
+    text-align: right;
+}
+
+.first div :nth-last-child(1) {
+    border: none;
+    cursor: pointer;
+    border-radius: 2vw;
+    background-color: #f15048;
+    cursor: pointer;
+    padding: 1vw 2vw;
+    font-size: 1vw;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2vw;
+}
+
+.first div :nth-last-child(1):hover {
+    background-color: #dc817c;
+}
+
+.first img {
+    width: 15vw;
+    margin: 4vw 0vw 0vw 5vw;
+}
+
+.second {
+    /* border: 2px solid black; */
+    width: 93vw;
+    height: 50vw;
+    display: flex;
+    padding-left: 5vw;
+}
+
+.second div {
+    text-align: left;
+    margin-top: 7vw;
+}
+
+.second div :nth-child(1) {
+    font-weight: 700;
+    font-size: 4.5vw;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif !important;
+}
+
+.second div :nth-child(2) {
+    letter-spacing: 0.2vw;
+    font-size: 1.1vw;
+    font-weight: 200;
+    line-height: 3vw;
+    font-family : 'Open Sans', sans-serif;
+}
+
+.second div :nth-child(3) {
+    font-family: sans-serif;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    font-style: italic;
+    color: rgb(50, 46, 46);
+}
+
+.second div :nth-last-child(1) {
+    border: none;
+    cursor: pointer;
+    border-radius: 2vw;
+    background-color: #f15048;
+    cursor: pointer;
+    padding: 1vw 2vw;
+    font-size: 1vw;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2vw;
+}
+
+.second div :nth-last-child(1):hover {
+    background-color: #dc817c;
+}
+
+.second img {
+    width: 48vw;
+    position: relative;
+    top: -2vw;
+}
+
+.third {
+    width: 93vw;
+    display: flex;
+    gap: 2vw;
+    padding-left: 5vw;
+}
+
+.third div {
+    width: 47vw;
+    text-align: left;
+    margin-top: 4vw;
+    background-image: url("https://images01.nicepage.com/16/1a/161ab6cb425b7ec43838e8487c441a17.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.third div :nth-child(1) {
+    font-weight: 700;
+    font-size: 4.5vw;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif !important;
+}
+
+.third div :nth-child(2) {
+    letter-spacing: 0.2vw;
+    font-size: 1.1vw;
+    font-weight: 200;
+    line-height: 3vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.third div :nth-child(3) {
+    font-family: sans-serif;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    font-style: italic;
+}
+
+.third div :nth-last-child(3) {
+    border: none;
+    cursor: pointer;
+    border-radius: 2vw;
+    color: rgb(50, 46, 46);
+    background-color: #f15048;
+    cursor: pointer;
+    padding: 1vw 2vw;
+    font-size: 1vw;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2vw;
+}
+
+.third div :nth-last-child(3):hover {
+    background-color: #dc817c;
+}
+
+.third div :nth-last-child(1) {
+    color: white;
+    cursor: pointer;
+    border-radius: 2vw;
+    background-color: #97a4d8;
+    cursor: pointer;
+    padding: 1vw 2vw;
+    font-size: 1vw;
+    color: white;
+    position: relative;
+    top: 1vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.third img {
+    width: 44vw;
+}
+
+.fourth {
+    width: 98.79vw;
+    height: 40vw;
+    background-image: url("https://images01.nicepage.com/a6/c3/a6c35c62bce47208591fd73322842059.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+}
+
+.fourth div {
+    position: relative;
+    top: 15vw;
+    left: 61vw;
+    width: 32vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vw;
+    align-items: end;
+}
+
+.fourth div :nth-child(1) {
+    font-weight: 700;
+    font-size: 4.5vw;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif !important;
+}
+
+.fourth div :nth-child(2) {
+    letter-spacing: 0.2vw;
+    font-size: 1.1vw;
+    font-weight: 200;
+    line-height: 3vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fourth div :nth-child(3) {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    color: rgb(50, 46, 46);
+    font-size: 1.1vw;
+    word-wrap: break-word;
+    text-align: right;
+}
+
+.fourth div :nth-last-child(1) {
+    border: none;
+    cursor: pointer;
+    border-radius: 2vw;
+    background-color: #f15048;
+    cursor: pointer;
+    padding: 1vw 2vw;
+    font-size: 1vw;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2vw;
+}
+
+.fourth div :nth-last-child(1):hover {
+    background-color: #dc817c;
+}
+
+.fifth {
+    margin-top: 4vw;
+}
+
+.fifth :nth-child(1),
+.fifth :nth-child(2) {
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'Roboto Slab', serif !important;
+    font-weight: 700;
+}
+
+.fifth :nth-child(2) {
+    font-size: 2vw;
+    font-weight: 200;
+    letter-spacing: .4vw;
+}
+
+.sixth {
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+}
+
+.sixth_ :nth-child(1) {
+    width: 24vw;
+}
+
+.sixth_ :nth-child(2) {
+    font-size: 1.3vw;
+    text-align: center;
+    font-weight: 300;
+    line-height: 3vw;
+    font-family: Roboto, sans-serif;
+    word-wrap: break-word;
+}
+
+.sixth_ :nth-last-child(1) {
+    font-size: 1.8vw;
+    text-align: center;
+
+}
+
+.seventh {
+    display: flex;
+    margin-top: 2vw;
+}
+
+.seventh img {
+    width: 55vw;
+}
+
+.seventh div {
+    width: 40vw;
+    margin-top: 8vw;
+}
+
+.seventh div h1 {
+    font-weight: 700;
+    font-size: 4.5vw;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif !important;
+}
+
+.seventh div h6 {
+    letter-spacing: 0.2vw;
+    font-size: 1.1vw;
+    font-weight: 200;
+    line-height: 3vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.seventh div button {
+    border: none;
+    cursor: pointer;
+    border-radius: 2vw;
+    background-color: #f15048;
+    cursor: pointer;
+    padding: 1vw 2vw;
+    font-size: 1vw;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2vw;
+}
+
+.seventh div button:hover {
+    background-color: #dc817c;
+
+}
+
+.ul {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    color: rgb(50, 46, 46);
+    font-size: 1.1vw;
+    list-style: circle;
+    display: block;
+    line-height: 3vw;
+    background-color: transparent;
+}
+
+.eighth {
+    display: flex;
+    margin-top: 5vw;
+}
+
+.eighth img {
+    width: 49vw;
+}
+
+span img {
+    width: 98vw;
+}
+
+.nineth {
+    display: flex;
+    margin-left: 3vw;
+}
+
+.nineth img {
+    width: 43vw;
+}
+
+#nine h1 {
+    font-weight: 700;
+    font-size: 4.5vw;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif !important;
+}
+
+#nine h6 {
+    letter-spacing: 0.2vw;
+    font-size: 1.2vw;
+    font-weight: 200;
+    line-height: 3vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nine {
+    margin: 2vw 0 1vw 0;
+    display: flex;
+    gap: 3vw;
+}
+
+#nine {
+    width: 50vw;
+    margin-top: 9vw;
+    margin-left: 3vw;
+}
+
+#nineth {
+    display: flex;
+    gap: 2vw;
+}
+
+footer {
+    background-color: #333333;
+    padding: 4vw;
+}
+
+footer h1 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    text-align: center;
+    cursor: pointer;
+}
